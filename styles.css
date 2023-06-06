@@ -706,6 +706,16 @@ footer .container article > h3 {
         
     
     }
+    .btn{
+    display:inline-block;
+    width: fit-content;
+    padding: 0.35rem .7rem;
+    background: var(--secondary-color);
+    border-radius:10px;
+    color:wheat;
+    cursor:pointer;
+    transition: var(--transition);
+    }
     .header_container{
         display: grid;
         grid-template-columns: 1fr ;
